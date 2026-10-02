@@ -4,21 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <a href="../index.html">Go to About Me</a>
-    <a href="../projects\index.html">Go to Projects</a>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+    <h1>Contact</h1>
+
+    <nav>
+    <a href="../index.html">Go to About Me</a>
+    <a href="../contact/index.html">Go to Contact</a>
+    <a href="../projects\index.html">Go to Projects</a>
+    <a href="../resume/index.html">Go to Resume</a>
+    <a href="https://github.com/ethanbaquiran" target="_blank">GitHub</a>
+    </nav>
+
     <form action="mailto:ebaquiran@ucsd.edu" method="post" enctype="text/plain"> 
-        <label for="email">Email:</label>
-        <input type="email" name="subject">
+        <label>Email:
+        <input type="email" name="email">
+        </label>
 
-        <label for="subject">Subject:</label>
+        <label>Subject:
         <input name="subject">
+        </label>
 
-        <label for="body">Body:</label>
+        <label>Body:
         <textarea name="body"></textarea>
+        </label>
 
         <button type="Submit">Submit</button>
     </form>
+
 </body>
 </html>
