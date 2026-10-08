@@ -20,8 +20,12 @@ nav li {
 
 nav {
   display: flex;
+  margin-bottom: auto;
 }
 
 nav a {
   flex: 1;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
 }
