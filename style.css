@@ -21,6 +21,7 @@ nav li {
 nav {
   display: flex;
   margin-bottom: auto;
+  border-bottom: 1px solid oklch(80% 3% 200);
 }
 
 nav a {
