@@ -1,12 +1,10 @@
 body {
-  /* Set line height to 1.5 times the font size
-	   and use the OS’s UI font as the website font
-	 */
   font: 100%/1.5 system-ui;
   max-width: 100ch;
   margin-inline: auto;
   padding: 1em;
-
+  color: oklch(25% 0.01 250);
+  background-color: oklch(98% 0.005 250);
 }
 
 img {
@@ -30,6 +28,7 @@ nav a {
   text-decoration: none;
   color: inherit;
   text-align: center;
+  padding: 0.5em;
 }
 
 html{
@@ -51,18 +50,17 @@ nav a:hover {
 form {
   display: grid;
   grid-template-columns: auto 1fr;
+  gap: 1em;
 
   label {
-    display: contents;
+    display: grid;
     grid-template-columns: subgrid;
     grid-column: 1 / -1;
-
   }
-    button {
-      grid-column: 1 / -1;
-    }
 
-    gap: 1em;
+  button {
+    grid-column: 1 / -1;
+  }
 }
 
 .projects {
@@ -78,6 +76,8 @@ form {
 
     h2 {
       margin: 0;
+      border-bottom: none;
+      padding-bottom: 0;
     }
   }
 }
@@ -89,4 +89,26 @@ h1 {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   text-wrap: balance;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+h2 {
+  color: var(--color-accent);
+  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 0.2em;
+  margin-top: 1.5em;
+}
+
+h3 + p {
+  margin-block: 0.25em 0.5em;
+  font-size: 90%;
+  color: oklch(45% 0.02 250);
+}
+
+h3 {
+  margin-top: 1.25em;
+  margin-bottom: 0.25em;
 }
