@@ -20,8 +20,9 @@ nav li {
 
 nav {
   display: flex;
-  margin-bottom: auto;
+  margin-bottom: 1em;
   border-bottom: 1px solid oklch(80% 3% 200);
+
 }
 
 nav a {
@@ -48,12 +49,18 @@ nav a:hover {
 }
 
 form {
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  margin-block: auto;
-}
+  display: grid;
+  grid-template-columns: auto 1fr;
 
-input, textarea, button {
-  font: inherit;
+  label {
+    display: contents;
+    grid-template-columns: subgrid;
+    grid-column: 1 / -1;
+
+  }
+    button {
+      grid-column: 1 / -1;
+    }
+
+    gap: 1em;
 }
