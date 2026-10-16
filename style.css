@@ -3,8 +3,6 @@ body {
   max-width: 100ch;
   margin-inline: auto;
   padding: 1em;
-  color: oklch(25% 0.01 250);
-  background-color: oklch(98% 0.005 250);
 }
 
 img {
@@ -119,4 +117,15 @@ nav a.current {
 
 html {
   color-scheme: light dark;
+}
+
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+}
+
+.color-scheme select {
+  font-family: inherit;
 }
