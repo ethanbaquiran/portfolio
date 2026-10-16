@@ -116,3 +116,7 @@ h3 {
 nav a.current {
   font-weight: bold;
 }
+
+html {
+  color-scheme: light dark;
+}
