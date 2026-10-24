@@ -1,62 +1,75 @@
 [
-    {
-        "title": "Lorem ipsum dolor sit.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias et ipsum fuga numquam sequi nam quo maxime architecto inventore magni animi illo corporis beatae placeat quod, neque error eum amet?"
-    },
-    {
-        "title": "Debitis cum doloribus reprehenderit!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Sequi, eligendi ipsum. Tempora consequuntur quo ratione officia amet commodi, pariatur quidem dolorum ut ex neque quas odio atque qui ducimus consequatur minima similique! Minima saepe delectus illum. Nihil, alias."
-    },
-    {
-        "title": "Delectus aliquam voluptates consequatur?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Fugiat laudantium laborum, rem quas ducimus ipsa autem voluptas dolores facere vel, odio et cum velit provident, dolorum inventore saepe quis eos rerum maxime accusantium perspiciatis. Ratione ullam architecto nihil?"
-    },
-    {
-        "title": "Quod aliquid et sequi.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Soluta eaque voluptatem iure, cupiditate aperiam adipisci facilis possimus voluptatum, ratione esse ea hic similique? Modi architecto facilis ratione maxime commodi tenetur aspernatur. Debitis sed exercitationem aliquid totam aliquam adipisci."
-    },
-    {
-        "title": "Earum molestias voluptatum perspiciatis.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Necessitatibus officia, voluptatum blanditiis labore eos quibusdam odit temporibus, voluptates dolor odio distinctio velit fugiat, modi voluptatibus cum aperiam facere tempore laborum impedit omnis officiis nisi fuga error! Soluta, delectus?"
-    },
-    {
-        "title": "In aliquid nam recusandae.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Consectetur nobis itaque laborum mollitia accusantium obcaecati beatae optio ut recusandae est hic, saepe inventore porro ad atque. Eum, iste. Qui magnam consequuntur quidem cumque natus autem alias voluptas eum."
-    },
-    {
-        "title": "Cumque doloribus culpa id!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Obcaecati incidunt nobis accusamus? Magni repellendus ea cumque ipsum optio. Commodi facere maiores exercitationem adipisci voluptatem explicabo! Aliquid debitis exercitationem voluptas omnis repudiandae ratione, itaque ullam odit doloribus. Tempora, consectetur."
-    },
-    {
-        "title": "Corporis architecto nam illo.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Odit aut corrupti facilis maxime cum ipsa molestiae explicabo similique nihil amet autem deleniti nesciunt consectetur sequi ullam quis, corporis eaque itaque dolorum dignissimos praesentium animi sint ducimus. Iure, esse."
-    },
-    {
-        "title": "Maxime quisquam commodi voluptatum.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Vero voluptatum deserunt recusandae autem saepe rem quidem culpa maxime repudiandae tenetur! Ut facilis aut alias, consequatur labore explicabo! Asperiores voluptatem neque animi possimus eaque aspernatur temporibus voluptate, consectetur quidem!"
-    },
-    {
-        "title": "Totam eligendi hic sunt?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Maiores dolorem iste odit velit perferendis, mollitia labore ex exercitationem cumque. Debitis architecto, consequatur ullam, soluta consequuntur laborum doloribus unde laudantium, nemo possimus dolore. Qui ullam animi illum harum quibusdam."
-    },
-    {
-        "title": "Dicta harum libero consequatur.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Molestias odit, blanditiis ducimus temporibus atque sed enim cupiditate optio explicabo itaque architecto illo voluptatum ab aut maxime quae odio, eaque sit fuga repudiandae perferendis id repellat laborum. Dolorum, maxime."
-    },
-    {
-        "title": "Enim magni porro iusto.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Totam molestiae praesentium modi quas provident nisi ex officiis eos dolorem perspiciatis rerum fuga ducimus, eius saepe et qui voluptas. Veritatis, ipsam et. Autem debitis, est officia soluta ipsa necessitatibus."
-    }
+  {
+    "title": "Apex Legends Pro Scene SQL Analysis",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "SQLite database and Python ETL pipeline built from esports CSV data, with SQL queries and Matplotlib charts on player and org earnings."
+  },
+  {
+    "title": "NBA Player Injury and Performance Analysis",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Analysis of NBA player stats, injuries, and social media engagement, with an XGBoost model (R² = 0.78) predicting career game wins."
+  },
+  {
+    "title": "Python Multimedia Processing and KNN Classifier",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Image and audio processing in Python and NumPy, plus a KNN image classifier using pixel-based distance."
+  },
+  {
+    "title": "AscendQuiz",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Team project with the AI Student Collective that uses the Gemini API to generate quizzes with adaptive difficulty."
+  },
+  {
+    "title": "Personal Portfolio Website",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "This site, built with HTML, CSS, and JavaScript, with a themed nav, dark mode, and projects loaded from JSON."
+  },
+  {
+    "title": "Project coming soon",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder for a future project."
+  },
+  {
+    "title": "Another project coming soon",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder for a future project."
+  },
+  {
+    "title": "One more project coming soon",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder for a future project."
+  },
+   {
+    "title": "One more project coming soon",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder for a future project."
+  },
+   {
+    "title": "One more project coming soon",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder for a future project."
+  },
+   {
+    "title": "One more project coming soon",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder for a future project."
+  },
+   {
+    "title": "One more project coming soon",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder for a future project."
+  }
+  
 ]
