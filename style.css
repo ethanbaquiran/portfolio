@@ -214,3 +214,40 @@ dl.stats {
 }
 dl.stats dt { grid-row: 1; font-size: 80%; color: gray; margin: 0; }
 dl.stats dd { grid-row: 2; font-size: 200%; margin: 0; }
+
+.gridlines { stroke-opacity: 0.2; }
+
+dl.info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin: 0;
+  padding: 0.75em;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5em;
+  backdrop-filter: blur(4px);
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+dl.info dt { color: gray; }
+dl.info dd { margin: 0; }
+
+.tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+circle:hover { transform: scale(1.5); }
+
+circle.selected { fill: #ff6b6b; }
