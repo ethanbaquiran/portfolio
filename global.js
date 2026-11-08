@@ -14,6 +14,7 @@ let pages = [
   { url: 'resume/', title: 'Resume' },
   { url: 'contact/', title: 'Contact' },
   { url: 'https://github.com/ethanbaquiran', title: 'GitHub' },
+  { url: 'meta/', title: 'Meta' },
 ];
 
 let nav = document.createElement('nav');
