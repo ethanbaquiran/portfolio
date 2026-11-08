@@ -206,3 +206,11 @@ html {
     fill: var(--color);
   }
 }
+
+dl.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+  gap: 0.25em 1em;
+}
+dl.stats dt { grid-row: 1; font-size: 80%; color: gray; margin: 0; }
+dl.stats dd { grid-row: 2; font-size: 200%; margin: 0; }
