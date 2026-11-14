@@ -1,5 +1,12 @@
 [
   {
+  "title": "Bikewatching: Boston Bike Traffic Map",
+  "year": "2026",
+  "image": "images/bikewatching.png",
+  "description": "Interactive D3 and Mapbox map of Boston Bluebikes stations showing traffic volume and the balance of arrivals vs. departures.",
+  "url": "https://ethanbaquiran.github.io/bikewatching/"
+},
+  {
     "title": "Apex Legends Pro Scene SQL Analysis",
     "year": "2026",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
